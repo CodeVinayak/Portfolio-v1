@@ -1,0 +1,458 @@
+<!--
+Author: Vinayak Singh
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Vinayak Singh</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet'
+		type='text/css'>
+	<!--//fonts-->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta https-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Vinayak Singh,King Vinayak,Vinayak Singh github" />
+	<link rel="shortcut icon" type="image/jpg" href="images/V.png" />
+	<script src="js\script.js" defer></script>
+
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="brand-title">Portfolio</div>
+		<a href="#" class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<div class="navbar-links">
+			<ul>
+				<li><a class="scroll" href="#about">ABOUT</a></li>
+				<li><a class="scroll" href="#portfolio">PORTFOLIO</a></li>
+				<li><a class="scroll" href="#contact">CONTACT</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- banner -->
+	<div class="banner" id="home">
+		<div class="container"></div>
+
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="images/1.png" alt="" />
+			</div>
+			<div class="banner-right">
+				<h1>Vinayak Singh</h1>
+				<div class="border"></div>
+				<h2>Web Developer</h2>
+				<a href="https://wa.me/+919630576848?text=Hello Vinayak">Message Now</a>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!--about-->
+	<div class="about text-center" id="about">
+		<div class="container">
+			<h3>ABOUT ME</h3>
+			<div class="strip text-center"><img src="images/about.png" alt=" " /></div>
+			<p>Hi, I am Vinayak Singh,a Freelance Website Developer.I have 3 Years of Experience.
+				During this 3 Years, I have developed more then 20+ different niche Website.
+				I am also Good at HTML,CSS,UX & UI Designing,Basic SEO & Marketing.
+				I will build High Quality Professional Looking,Responsive Website.
+			</p>
+			<ul>
+				<li><a class="in" href="https://www.linkedin.com/in/vinayak-singh-010707203/"></a></li>
+				<!-- <li><a class="yt" href="https://www.youtube.com/channel/UC8aNagD4bdIyhWGwfZfCVmA"></a></li> -->
+			</ul>
+		</div>
+	</div>
+	<!--//about-->
+	<div class=""></div>
+	<!--my skill-->
+	<div class="my-skills text-center">
+		<div class="container">
+			<h3>MY SKILLS</h3>
+			<div class="strip text-center"><img src="images/skill.png" alt=" " /></div>
+			<div class="skill-grids">
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-6"></div>
+					<p>WordPress</p>
+				</div>
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-5"></div>
+					<p>Shopify</p>			
+				</div>
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-4"></div>
+					<p>Html 5 / CSS 3</p>
+				</div>
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-3"></div>
+					<p>Magento</p>
+				</div>
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-2"></div>
+					<p>JavaScript</p>
+				</div>
+				<div class="col-md-2 skills-grid text-center">
+					<div class="circle" id="circles-1"></div>
+					<p>SEO & Marketing</p>
+				</div>
+				<div class="clearfix"> </div>
+				<script type="text/javascript" src="js/circles.js"></script>
+				<script>
+					var colors = [
+						['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+					];
+					for (var i = 1; i <= 7; i++) {
+						var child = document.getElementById('circles-' + i),
+							percentage = 30 + (i * 10);
+
+						Circles.create({
+							id: child.id,
+							percentage: percentage,
+							radius: 80,
+							width: 10,
+							number: percentage / 1,
+							text: '%',
+							colors: colors[i - 1]
+						});
+					}
+
+				</script>
+			</div>
+		</div>
+	</div>
+	<!--//my skill-->
+	<div class=""></div>
+
+	<!--services-->
+	<div class="services text-center" id="services">
+		<div class="container">
+			<div class="ser-info">
+				<h3>SERVICES</h3>
+			</div>
+			<div class="strip text-center"><img src="images/ser.png" alt=" " /></div>
+			<div class="ser-grids">
+				<div class="col-md-3 ser-grid">
+					<img src="images/wordpress.jpg" width="190px" height="190px" />
+					<h3>WordPress</h3>
+					<p>I Provide E-Commerce WordPress Website.
+						I focus on developing quality Responsive (Mobile Friendly)
+						sites for Business and Individuals.</p>
+				</div>
+				<div class="col-md-3 ser-grid">
+					<img src="images/hcj.jpg" width="190px" height="190px" />
+					<h3>Html,CSS & Javascript</h3>
+					<p>I also Provide Html,CSS & JavaScript
+						Website.I also fix bug,issue on your old Website
+						& add new feature and customization. </p>
+				</div>
+				<div class="col-md-3 ser-grid">
+					<img src="images/SEO.jpg" width="190px" height="190px" />
+					<h3>SEO</h3>
+					<p>I also Provide Search engine optimization
+						that help in generating free and organic traffic from
+						Google to your Website. </p>
+				</div>
+				<div class="col-md-3 ser-grid">
+					<img src="images/b2c.jpg" width="190px" height="190px" />
+					<h3>Marketing</h3>
+					<p>I also Provide Marketing because it is
+						Very Important step for New Business to get traffic
+						and convert into sales and customers.
+					</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--//services-->
+	<!--portfolio-->
+	<div class="gallery-section text-center" id="portfolio">
+		<div class="container">
+			<h3>PORTFOLIO</h3>
+			<div class="strip text-center"><img src="images/port.png" alt=" " /></div>
+			<p>I would like to showcase few of the works I did and looking forward to share my input with you.</p>
+			<p>Sounds unbelievable? Well,refer my work samples attached below</p>
+			<div class="gallery-grids">
+				<div class="top-gallery">
+					<div class="col-md-4 gallery-grid gallery1">
+						<!-- <img src="images/Web 2.0.jpg" class="swipebox" ></a> -->
+						<img src="images/Web 2.0.jpg" class="img-responsive">
+						<!-- <div class="button"><a href="" class="">Visit</a></div> -->
+						<div class="button"><a href="images/Web 2.0.jpg" class="swipebox">VIEW</a></div>
+						<a href="images/web2.1.jpg" class="swipebox"></a>
+						<a href="images/web2.4.jpg" class="swipebox"></a>
+						<a href="images/web2.5.jpg" class="swipebox"></a>
+						<a href="images/web2.6.jpg" class="swipebox"></a>
+					</div>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/es1.jpg" class="img-responsive">
+					<!-- <div class="button"><a href="" class="">Visit</a></div> -->
+					<div class="button"><a href="images/es1.jpg" class="swipebox">VIEW</a></div>
+					<a href="images/es2.jpg" class="swipebox"></a>
+					<a href="images/es3.jpg" class="swipebox"></a>
+					<a href="images/es4.jpg" class="swipebox"></a>
+					<a href="images/m4.jpg" class="swipebox"></a>
+					<a href="images/m5.jpg" class="swipebox"></a>
+					<a href="images/m6.jpg" class="swipebox"></a>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/k1.jpg" class="img-responsive">
+					<!-- <div class="button"><a href="" class="">Visit</a></div> -->
+					<div class="button"><a href="images/k1.jpg" class="swipebox">VIEW</a></div>
+					<a href="images/k2.jpg" class="swipebox"></a>
+					<a href="images/k3.jpg" class="swipebox"></a>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/Capture.jpg" class="img-responsive">
+					<!-- <div class="button"><a href="" class="">Visit</a></div> -->
+					<div class="button"><a href="images/Capture.jpg" class="swipebox">VIEW</a></div>
+					<a href="images/Capture2.jpg" class="swipebox"></a>
+					<a href="images/Capture3.jpg" class="swipebox"></a>
+					<a href="images/Capture4.jpg" class="swipebox"></a>
+					<a href="images/m1.jpg" class="swipebox"></a>
+					<a href="images/m2.jpg" class="swipebox"></a>
+					<a href="images/m3.jpg" class="swipebox"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"> </div>
+	</div>
+	<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/jquery.swipebox.min.js"></script>
+	<script type="text/javascript">
+		jQuery(function ($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+	</div>
+	</div>
+	</div>
+	<!--//portfolio-->
+	<br>
+	<!--process-->
+	<div class="process text-center">
+		<div class="container">
+			<h3>PROCESS</h3>
+			<div class="strip text-center"><img src="images/pro.png" alt=" " /></div>
+			<div class="process-girds">
+				<div class="col-md-2 process-pad">
+					<div class="process-gird">
+						<div class="process-imagea"></div>
+						<p>IDEA</p>
+						<img src="images/6.png" alt="" />
+					</div>
+				</div>
+				<div class="col-md-2 process-pad">
+					<div class="process-gird">
+						<div class="process-imageb"></div>
+						<p>CONCEPT</p>
+						<img class="pro-imga" src="images/6.png" alt="" />
+					</div>
+				</div>
+				<div class="col-md-2 process-pad">
+					<div class="process-gird">
+						<div class="process-imagec"></div>
+						<p>DESIGN</p>
+						<img class="pro-img" src="images/6.png" alt="" />
+					</div>
+				</div>
+				<div class="col-md-2 process-pad">
+					<div class="process-gird">
+						<div class="process-imaged"></div>
+						<p>DEVELOP</p>
+						<img class="pro-imgb" src="images/6.png" alt="" />
+					</div>
+				</div>
+				<div class="col-md-2 process-pad">
+					<div class="process-gird">
+						<div class="process-imagee"></div>
+						<p>TEST</p>
+						<img src="images/6.png" alt="" />
+					</div>
+				</div>
+				<div class="col-md-2 process-pad">
+					<div class="process-gird">
+						<div class="process-imagef"></div>
+						<p>LAUNCH</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--//process-->
+	<div class=""></div>
+	<!--testimonials-->
+	<div class="testimonials" id="testimonial">
+		<div class="container">
+			<h3>TESTIMONIAL</h3>
+			<div class="strip text-center"><img src="images/test.png" alt=" " /></div>
+			<!-- responsiveslides -->
+			<script src="js/responsiveslides.min.js"></script>
+			<script>
+				// You can also use "$(window).load(function() {"
+				$(function () {
+					// Slideshow 4
+					$("#slider3").responsiveSlides({
+						auto: true,
+						pager: false,
+						nav: true,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+							$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+						}
+					});
+				});
+			</script>
+			<!-- responsiveslides -->
+			<div id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="test-banner">
+							<img class="quoa" src="images/quo2.png" alt="" />
+							<div class="test-left">
+								<img src="images/Review 1.jpg" alt="Review 1" />
+							</div>
+							<div class="test-right">
+								<p>Great Work! My wordpress E-Commerce Website is looking fabulous just because
+									of
+									you.On time... Very Punctual.Understand my requirement and made revisions
+									super
+									fast.</h4>
+							</div>
+							<div class="clearfix"></div>
+							<img class="quo" src="images/quo1.png" alt="" />
+						</div>
+					</li>
+					<li>
+						<div class="test-banner">
+							<img class="quoa" src="images/quo2.png" alt="" />
+							<div class="test-left">
+								<img src="images/Review 2.jpg" alt="" />
+							</div>
+							<div class="test-right">
+								<p>Very Satisfied with the overall work.Quick response and delivery of my
+									Website.Thank
+									you so much for your great service. I will surely work again with you.</h4>
+							</div>
+							<div class="clearfix"></div>
+							<img class="quo" src="images/quo1.png" alt="" />
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+	<!--testimonials-->
+
+	<!--contact-->
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="contact-info text-center">
+				<h3>CONTACT</h3>
+				<div class="strip text-center"><img src="images/con1.png" alt=" " /></div>
+			</div>
+			<div class="contact-grids">
+				<div class="col-md-5 contact-left">
+					<h3>Say Hi to Me</h3>
+					<div class="stripb"></div>
+					<ul>
+						<li><a href="https://wa.me/+919630576848?text=Hello Vinayak">Chat on Whatsapp</a></li>
+						<li><a href="https://t.me/KinGVinaYaK">Chat on Telegram</a></li>
+						<li><a href="https://www.linkedin.com/in/vinayak-singh-010707203/">Chat on linkedin</a></li>
+						<li><a href="mailto:Vinayaksingh10142@gmail.com">Drop an E-mail</a></li>
+					</ul>
+				</div>
+				<div class="col-md-7 contact-right">
+					<h3>Drop Me A Line</h3>
+					<div class="stripb"></div>
+					<form id="contact" action="https://formspree.io/f/xknkpqry" method="post"
+						enctype="multipart/form-data">
+						<div class=" row">
+							<fieldset>
+								<input name="name" type="text" class="form-control" id="name" placeholder="Your name..."
+									required="">
+							</fieldset>
+							<fieldset>
+								<input name="E-mail" type="email" class="form-control" id="email"
+									placeholder="Your E-mail" required="">
+								<br>
+							</fieldset>
+							<fieldset>
+								<textarea name="message" rows="6" class="form-control" id="message"
+									placeholder="Your message..." required=""></textarea>
+							</fieldset>
+							<fieldset>
+								<input type="submit" id="form-submit" class="btn"></button>
+								<br>
+							</fieldset>
+						</div>
+						<div class="clearfix"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!--//contact-->
+	<div class=""></div>
+
+
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<p>Copyright &copy; 2021 Vinayak Singh </a></p>
+		</div>
+	</div>
+	<!--//footer-->
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>
+
+</html>
