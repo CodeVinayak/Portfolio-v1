@@ -561,7 +561,7 @@ font-weight:700;
   font-weight: 300;
 }
 /*--//services--*/
-/*--portfolio--*/
+/*--PROJECT--*/
 .gallery-section{
 background: linear-gradient(to right, #0575E6, #00F260);;
 	background-size: cover;
@@ -572,7 +572,7 @@ background: linear-gradient(to right, #0575E6, #00F260);;
 	min-height:1404px;
     padding: 140px 0 0px 0;
 }
-#portfolio p {
+#PROJECT p {
 
   line-height: 1.8em;
   margin: 25px 0 0 0;
@@ -649,7 +649,7 @@ color:#fff;
 font-size:18px;
 font-weight:700;
 }
-/*--//portfolio--*/
+/*--//PROJECT--*/
 /*--process--*/
 .process{
 background:#52edc7;
@@ -2149,7 +2149,7 @@ border:none;
 	.gallery-section h3 {
 	  font-size: 32px;
 	  }
-	#portfolio p {
+	#PROJECT p {
 	  font-size: 16px;
 	  }
 	.gallery-grids {
@@ -2538,7 +2538,7 @@ border:none;
 	.gallery-section h3 {
 	  font-size: 30px;
 	}
-	#portfolio p {
+	#PROJECT p {
 	  font-size: 14px;
 	}
 	.gallery-grid {
@@ -3169,7 +3169,7 @@ border:none;
 	.gallery-section {
 	  padding: 54px 0 0px 0;
 	}
-	#portfolio p {
+	#PROJECT p {
 	  font-size: 15px;
 	}
 	.gallery-grid {
